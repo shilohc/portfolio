@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Shiloh Curtis</title>
+    <link href="../index.css" rel="stylesheet">
+    <link href="../lib/fontello/css/fontello.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-container">
+    </header>
+    <main>
+        <div class="container">
+            <div class="lead">
+                <h1 class="lead__heading">H-NAV</h1>
+                <div class="lead__sub">
+                    <p>
+                    The H-NAV is a LIDAR-based navigational aid for visually impaired people.  The LIDAR detects obstacles within two meters that are approximately at face height, and a set of vibrating motors in the hatband indicates the obstacles' direction and rough distance.  
+                    </p>
+                    <p>
+                    <!-- This was my science fair project during 2013-2015, and won several awards during the 2014 and 2015 competition seasons.  [list below]-->
+                    This project went through three major versions, each revision prompted by user tests.  I tested the first two versions on myself and other sighted users, and was also able to test the third version on a group of blind volunteers.  
+                    <!-- TODO: write sections, draw content from jshs presentation.  version 1, version 2, version 3, next steps, awards -->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container project-container">
+            <div class="project">
+                <div class="project__img-container">
+                    <img class="project__img" src="../img/hnav.jpg" alt="Photo of the H-NAV">
+                </div>
+                <div class="project__details">
+                    <p>
+                        This is the third revision of the H-NAV.  A PCB mounted to the side of the hat contains a slider for adjusting the obstacle distance threshold.  The main PCB, tucked under the LIDAR, contains an ATMega324 microprocessor for processing LIDAR data and the lithium-ion battery charging circuitry, and the vibrating motors are mounted to a flexible PCB inside the hatband containing a second microprocessor, the ATTiny2313.  
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project__img-container">
+                    <div style="padding:56.25% 0 0 0;position:relative;">
+                        <video style="position:absolute;top:0;left:0;width:100%;height:100%;" controls name="media">
+                            <source src="../img/todayshow.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project__details">
+                    <p>
+                        The H-NAV was my science fair project from 2013 to 2015, and won numerous awards, including Project of the Year at the California State Science Fair, National Finalist at the Junior Science and Humanities Symposium, and Regional Finalist for the Americas at the Google Science Fair.  It was also featured in Popular Mechanics (winner of a Next Generation Breakthrough Award) and on the Today Show (winner of a Make the Future Award).  (My portion of the Today Show segment starts at 4:50.)  
+                        <ul>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class='footer'>
+        <h1 class='footer__name'>Shiloh Curtis</h1>
+        <h2 class='footer__title'>Robotics Engineer</h2>
+        Copyright © 2019 Shiloh Curtis
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

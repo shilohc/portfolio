@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Shiloh Curtis</title>
+  <link href="index.css" rel="stylesheet">
+  <!-- for social icons -->
+  <link href="lib/fontello/css/fontello.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header-container">
+  </header>
+  <main>
+    <div class="container">
+      <div class="lead">
+        <h1 class="lead__heading">Hi, I'm Shiloh</h1>
+        <div class="lead__sub">
+          I'm a MEng student at MIT.  In May 2020, I completed my bachelor's degree in course 6-2 (Computer Science and Electrical Engineering).  
+          My robotics experience is extensive; I've used ROS since the 2012 Fuerte release, and worked with a variety of different robotics platforms, on projects like autonomous mapping and fiducial-based localization. Although my primary focus is software, I enjoy working on robots on every layer, from hardware to low-level controls to high-level planning.
+        </div>
+
+        <div class="call-to-action">
+          <a href="https://shilohc.github.io/portfolio/shiloh_curtis_resume.pdf" target="_blank" class="btn btn--primary btn--lg">Get my resume</a>
+
+          <div class="socials">
+            <a class="socials__link" href="https://github.com/shilohc" target="_blank">
+              <i class="icon-github-circled"></i>
+            </a>
+            <a class="socials__link" href="mailto:shilohc@mit.edu" target="_blank">
+              <i class="icon-mail-alt"></i>
+            </a>
+            <a class="socials__link" href="https://www.linkedin.com/in/shiloh-curtis-076207115/" target="_blank">
+              <i class="icon-linkedin-squared"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container experience-container">
+      <h1>Experience</h1>
+      <div class="timeline">
+        <div class="timeline__line"></div>
+        <!-- TODO: add timeline item for Robust internship -->
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Spring 2019 - present</header>
+            <h2 class="experience__name">MEng Research in MIT's Learning and Intelligent Systems Group</h2>
+            <p>Designing a bio-inspired hierarchical map representation for robotics, and building a planner that makes use of it</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Summer 2019</header>
+            <h2 class="experience__name">Robotics Engineer Intern at Artificial</h2>
+            <div class="skill-tags">
+              <div class="skill-tag">Python</div>
+              <div class="skill-tag">asyncio</div>
+              <div class="skill-tag">OpenCV</div>
+              <div class="skill-tag">Docker</div>
+            </div>
+            <p>Designed 2-finger gripper interface for robot software framework, and implemented drivers for Robotiq 2F-85 and OnRobot RG2 grippers</p>
+            <p>Designed and developed demo of object detection and reactive grasping using Precise Automation PF400 arm, using OpenCV to detect objects with colored markers</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Fall 2018 - Spring 2019</header>
+            <h2 class="experience__name">Undergraduate Research in MIT's Distributed Robotics Lab</h2>
+            <div class="skill-tags">
+              <div class="skill-tag">ROS</div>
+              <div class="skill-tag">C++</div>
+              <div class="skill-tag">Python</div>
+              <div class="skill-tag">PCL</div>
+            </div>
+            <p>Implemented object detection on RGB-D camera data, used to evaluate the grasping performance of an experimental soft robotic hand</p>
+            <ul>
+              <li>Refactored monolithic PCL-based planar segmentation into efficient, clear, unit-tested C++ library with backward-compatible ROS wrapper</li>
+              <li>Implemented ROS node using pretrained semantic segmentation model to deal with scenes where planar segmentation fails</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Summer 2018</header>
+            <h2 class="experience__name">Robotics Engineer Intern at Iron Ox</h2>
+            <div class="skill-tags">
+              <div class="skill-tag">ROS</div>
+              <div class="skill-tag">Gazebo</div>
+              <div class="skill-tag">C++</div>
+              <div class="skill-tag">Python</div>
+              <div class="skill-tag">OnShape</div>
+            </div>
+            <p>
+              <video width="100%" height="100%" controls>
+                <source type="video/mp4" src="img/ironox.mp4">
+              </video>
+              <p>Implemented fiducial-based localization on the 1,000 lb Module Mover robot</p>
+            </p>
+            <ul>
+              <li>Created static fiducial maps using Ceres Solver</li>
+              <li>Used robot_localization to fuse fiducial-based pose estimates with other sensor data</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Summer 2017</header>
+            <h2 class="experience__name">Engineering Practicum Intern at Google</h2>
+            <div class="skill-tags">
+              <div class="skill-tag">C++</div>
+              <div class="skill-tag">gRPC</div>
+              <div class="skill-tag">gUnit</div>
+              <div class="skill-tag">Bazel</div>
+            </div>
+            <p>Developed C++ backend for internal data storage debug tool</p>
+            <ul>
+              <li>Helped design RPC API (protocol buffer) to interface with frontend</li>
+              <li>Integrated with proprietary access control system to protect sensitive user data</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Winter 2015-16</header>
+            <h2 class="experience__name">Robotics Engineer Intern at Fetch Robotics</h2>
+            <div class="skill-tags">
+              <div class="skill-tag">ROS</div>
+              <div class="skill-tag">Gazebo</div>
+              <div class="skill-tag">Python</div>
+            </div>
+            <p>
+              <video width="100%" height="100%" controls>
+                <source type="video/mp4" src="img/fetch.mp4">
+              </video>
+              <p>Developed ROS node for autonomous area exploration and mapping</p>
+            </p>
+            <ul>
+              <li>Incorporated recent autonomous mapping research on the Next-Best-View problem of navigational goal selection</li>
+              <li>Used Voronoi diagrams for room segmentation in 2D grid map</li>
+              <li>Mapped large, unstructured office environment using Fetch's Freight robot</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Summer 2014</header>
+            <h2 class="experience__name">Summer Intern at OLogic, Inc.</h2>
+            <div class="skill-tags">
+              <div class="skill-tag">ROS</div>
+              <div class="skill-tag">Java</div>
+            </div>
+            <p>Augmented Android app for early-access dev release of Google's Project Tango to publish point-cloud and odometry data via ROS</p>
+            <ul>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="experience">
+            <header class="experience__header">Summer 2013</header>
+            <h2 class="experience__name">Summer Intern at OLogic, Inc.</h2>
+            <div class="skill-tags">
+              <div class="skill-tag">ROS</div>
+              <div class="skill-tag">Python</div>
+            </div>
+            <p></p>
+            <ul>
+              <li>Brought up and calibrated Willow Garage Turtlebot, replacing XBox Kinect with Hokuyo LIDAR</li>
+              <li>Developed ROS node and customer demo for a prototype LIDAR</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TODO: add map2gazebo -->
+    <div class="container project-container">
+      <h1>My Projects</h1>
+      <div class="project">
+        <div class="project__img-container">
+          <img class="project__img" src="img/stingoperation.jpg" alt="Photo of Sting Operation">
+        </div>
+        <div class="project__details">
+          <h2 class="project__name">Sting Operation</h2>
+          <div class="skill-tags">
+            <div class="skill-tag">ROS</div>
+            <div class="skill-tag">MicroPython</div>
+          </div>
+          <p>
+            Sting Operation is a homebrew telepresence robot, which I use to attend the Homebrew Robotics Club of Silicon Valley while away at MIT.
+            <ul>
+            </ul>
+            <div>
+              <a class="btn" href="projects/sting-operation.html" target="_blank">Read more</a>
+            </div>
+          </p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img-container">
+          <img class="project__img" src="img/hnav.jpg" alt="H-NAV Screenshot">
+        </div>
+        <div class="project__details">
+          <h2 class="project__name">H-NAV</h2>
+          <div class="skill-tags">
+            <div class="skill-tag">C</div>
+            <div class="skill-tag">AVR</div>
+            <div class="skill-tag">gEDA</div>
+          </div>
+          <p>
+            The H-NAV is a LIDAR-based haptic navigational aid for visually impaired people. (See project page for video.)
+            <ul>
+            </ul>
+            <div>
+              <a class="btn" href="projects/h-nav.html" target="_blank">Read more</a>
+            </div>
+          </p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project__img-container">
+          <img class="project__img" src="img/typewriter_kb.JPG" alt="Typewriter Keyboard Screenshot">
+        </div>
+        <div class="project__details">
+          <h2 class="project__name">Typewriter Keyboard</h2>
+          <div class="skill-tags">
+            <div class="skill-tag">OnShape</div>
+            <div class="skill-tag">QMK</div>
+            <div class="skill-tag">Soldering</div>
+          </div>
+          <p>
+            I built a mechanical keyboard that uses as its keycaps real keys from old typewriters.
+            <ul>
+            </ul>
+            <div>
+              <a class="btn" href="projects/typewriter-kb.html" target="_blank">Read more</a>
+            </div>
+          </p>
+        </div>
+      </div>
+      <!--
+      <div class="project">
+        <div class="project__img-container">
+          <img class="project__img" src="img/gcal_tracker_out.png" alt="Google Calendar Time Tracker Screenshot">
+        </div>
+        <div class="project__details">
+          <h2 class="project__name">Google Calendar Time Tracker</h2>
+          <div class="skill-tags">
+            <div class="skill-tag">Python</div>
+          </div>
+          <p>
+            A simple command-line utility that displays time breakdowns for the tasks on your Google Calendar. Find it on my github <a href="https://github.com/shilohc/gcal-tracker">here</a>.
+            <ul>
+            </ul>
+            <div>
+              <a class="btn" href="projects/gcal-tracker.html" target="_blank">Read more</a>
+            </div>
+          </p>
+        </div>
+      </div>
+      -->
+    </div>
+    <div class="container">
+      <div class='contact'>
+        <h2>Contact</h2>
+        <p class='contact__msg'>I'll be graduating from MIT with my MEng degree in 2021, and am searching for full-time post-graduation employment. If you're interested in working with me, please get in touch through <a href='mailto:shilohc@mit.edu'>shilohc@mit.edu</a>.
+      </div>
+    </div>
+  </main>
+  <footer class='footer'>
+    <h1 class='footer__name'>Shiloh Curtis</h1>
+    <h2 class='footer__title'>Robotics Engineer</h2> Copyright © 2018-2020 Shiloh Curtis
+  </footer>
+</body>
+
+</html>
